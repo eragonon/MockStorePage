@@ -1,0 +1,148 @@
+/*Green background image*/
+.container {
+    height: 175vh;
+    width: 100%;
+    background-image: url(images/Green\ background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+} 
+
+/*Navigation Bar*/
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+/*Equidistant logo*/
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+/*Navigation bar formatting*/
+nav {
+    flex: 1;
+    padding-left: 60px;
+}
+
+/*Navigation bar list formatting*/
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 40px;
+}
+
+/*Navigation bar text formatting*/ 
+nav ul li a {
+    text-decoration: none;
+    font-family: Georgia;
+    color: #000000;
+}
+
+/*First image on the left*/
+.image1 {
+    width: 800px; 
+    border-radius: 30px;    /*Change 1 - Rounding image edges*/
+    float: left;
+    margin-right: 10px;
+}
+
+/*First heading on the right*/
+.content h2 {               /*First header "A LOCATION EQUALLY DISTANT..."*/
+    margin-top: 24px;
+    margin-bottom: 15px;
+    font-size: x-large;
+    font-family: Georgia;
+}
+
+/*First paragraph on the right*/
+.content p {
+    font-size: 18px;
+    margin-bottom: 100px;
+    font-size: medium;
+    font-family: Georgia;    /*Change 2 - Font change*/
+}
+
+/*Formatting for the first h2 and p*/
+.content {
+    margin-bottom: 50px;
+    margin-right: 7%;
+    margin-left: 53%;
+    line-height: 2;
+    text-align: left;
+}
+
+/*Second image on the right*/
+.image2 {
+    width: 800px;
+    border-radius: 30px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+/*Second heading on the left*/
+.content2 h2 {              /*Second header "ABOUT THIS GAME"*/
+    margin-top: 24px;
+    font-size: x-large;     /*Change 3 - Font size*/
+    font-family: Georgia;
+}
+
+/*Second paragraph on the left*/
+.content2 p {
+    font-size: 18px;
+    margin-right: 50%;
+    font-size: medium;
+    font-family: Georgia;
+}
+
+/*Formatting for the second h2 and p*/
+.content2 {
+    margin-left: 2%;
+    margin-right: 140px;
+    margin-top: 180px;
+    line-height: 2;
+    text-align: left;
+}
+
+/*Third image on the left*/
+.image3 {
+    width: 800px; 
+    border-radius: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+/*Third heading on the right*/
+.content3 h2 {
+    margin-top: 180px;
+    margin-bottom: 15px;
+    font-size: x-large;
+    font-family: Georgia;
+}
+
+/*Unordered list on the right*/
+.content3 ul {
+    font-size: 18px;
+    margin-bottom: 100px;
+    font-size: medium;
+    font-family: Georgia;
+}
+
+/*Formatting for the third h2 and unordered list*/
+.content3 {
+    margin-bottom: 60px;
+    margin-right: 7%;
+    margin-left: 55%;
+    line-height: 2;
+    text-align: left;
+}
